@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000181351D027304000F23F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000181341D027304000F23F4 /* AppDelegate.swift */; };
+		0001813A1D027304000F23F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000181381D027304000F23F4 /* Main.storyboard */; };
+		0001813C1D027304000F23F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0001813B1D027304000F23F4 /* Assets.xcassets */; };
+		0001813F1D027304000F23F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0001813D1D027304000F23F4 /* LaunchScreen.storyboard */; };
+		000181471D0278D4000F23F4 /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000181461D0278D4000F23F4 /* TabView1.swift */; };
+		000181491D0278E2000F23F4 /* TabView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000181481D0278E2000F23F4 /* TabView2.swift */; };
+		0001814B1D0278ED000F23F4 /* TabView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0001814A1D0278ED000F23F4 /* TabView3.swift */; };
+		0001814D1D0278F7000F23F4 /* TabView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0001814C1D0278F7000F23F4 /* TabView4.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000181311D027304000F23F4 /* TjjWidgetEqualProportion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TjjWidgetEqualProportion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000181341D027304000F23F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		000181391D027304000F23F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0001813B1D027304000F23F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0001813E1D027304000F23F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		000181401D027304000F23F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000181461D0278D4000F23F4 /* TabView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
+		000181481D0278E2000F23F4 /* TabView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView2.swift; sourceTree = "<group>"; };
+		0001814A1D0278ED000F23F4 /* TabView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView3.swift; sourceTree = "<group>"; };
+		0001814C1D0278F7000F23F4 /* TabView4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView4.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0001812E1D027304000F23F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000181281D027303000F23F4 = {
+			isa = PBXGroup;
+			children = (
+				000181331D027304000F23F4 /* TjjWidgetEqualProportion */,
+				000181321D027304000F23F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000181321D027304000F23F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000181311D027304000F23F4 /* TjjWidgetEqualProportion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000181331D027304000F23F4 /* TjjWidgetEqualProportion */ = {
+			isa = PBXGroup;
+			children = (
+				000181341D027304000F23F4 /* AppDelegate.swift */,
+				000181461D0278D4000F23F4 /* TabView1.swift */,
+				000181481D0278E2000F23F4 /* TabView2.swift */,
+				0001814A1D0278ED000F23F4 /* TabView3.swift */,
+				0001814C1D0278F7000F23F4 /* TabView4.swift */,
+				000181381D027304000F23F4 /* Main.storyboard */,
+				0001813B1D027304000F23F4 /* Assets.xcassets */,
+				0001813D1D027304000F23F4 /* LaunchScreen.storyboard */,
+				000181401D027304000F23F4 /* Info.plist */,
+			);
+			path = TjjWidgetEqualProportion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000181301D027304000F23F4 /* TjjWidgetEqualProportion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000181431D027304000F23F4 /* Build configuration list for PBXNativeTarget "TjjWidgetEqualProportion" */;
+			buildPhases = (
+				0001812D1D027304000F23F4 /* Sources */,
+				0001812E1D027304000F23F4 /* Frameworks */,
+				0001812F1D027304000F23F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TjjWidgetEqualProportion;
+			productName = TjjWidgetEqualProportion;
+			productReference = 000181311D027304000F23F4 /* TjjWidgetEqualProportion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000181291D027303000F23F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "石雄伟";
+				TargetAttributes = {
+					000181301D027304000F23F4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 0001812C1D027303000F23F4 /* Build configuration list for PBXProject "TjjWidgetEqualProportion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000181281D027303000F23F4;
+			productRefGroup = 000181321D027304000F23F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000181301D027304000F23F4 /* TjjWidgetEqualProportion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0001812F1D027304000F23F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0001813F1D027304000F23F4 /* LaunchScreen.storyboard in Resources */,
+				0001813C1D027304000F23F4 /* Assets.xcassets in Resources */,
+				0001813A1D027304000F23F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0001812D1D027304000F23F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0001814D1D0278F7000F23F4 /* TabView4.swift in Sources */,
+				0001814B1D0278ED000F23F4 /* TabView3.swift in Sources */,
+				000181491D0278E2000F23F4 /* TabView2.swift in Sources */,
+				000181471D0278D4000F23F4 /* TabView1.swift in Sources */,
+				000181351D027304000F23F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		000181381D027304000F23F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000181391D027304000F23F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0001813D1D027304000F23F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0001813E1D027304000F23F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		000181411D027304000F23F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000181421D027304000F23F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000181441D027304000F23F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TjjWidgetEqualProportion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjj.TjjWidgetEqualProportion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		000181451D027304000F23F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TjjWidgetEqualProportion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjj.TjjWidgetEqualProportion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0001812C1D027303000F23F4 /* Build configuration list for PBXProject "TjjWidgetEqualProportion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000181411D027304000F23F4 /* Debug */,
+				000181421D027304000F23F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000181431D027304000F23F4 /* Build configuration list for PBXNativeTarget "TjjWidgetEqualProportion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000181441D027304000F23F4 /* Debug */,
+				000181451D027304000F23F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000181291D027303000F23F4 /* Project object */;
+}

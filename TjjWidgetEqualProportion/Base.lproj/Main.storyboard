@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3Qm-Li-Lmk">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--报告-->
+        <scene sceneID="xFc-ax-LM7">
+            <objects>
+                <viewController id="1pq-DM-Pfj" customClass="TabView2" customModule="TjjWidgetEqualProportion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DW4-Vt-xKW"/>
+                        <viewControllerLayoutGuide type="bottom" id="6kV-6t-iPh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="40U-5o-cvS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="报告" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWU-LX-PxB">
+                                <rect key="frame" x="128" y="214" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.050980392159999999" green="0.18823529410000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="报告" image="tabbar_reportoff" id="TJG-WZ-XNO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdx-lJ-CdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.5" y="-1263.5"/>
+        </scene>
+        <!--设备-->
+        <scene sceneID="ceh-jb-Wya">
+            <objects>
+                <viewController id="0h8-Ca-pDV" customClass="TabView3" customModule="TjjWidgetEqualProportion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PxM-ri-Slr"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Em-cU-fem"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Vr-bf-KvD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="设备" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owy-RY-U3o">
+                                <rect key="frame" x="97" y="301" width="126" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.050980392159999999" green="0.18823529410000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="设备" image="tabbar_deviceoff" id="NiH-wx-Gh7"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVW-EL-RkW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.5" y="-542.5"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="9nG-Fa-Sxg">
+            <objects>
+                <viewController id="MdZ-vk-Mye" customClass="TabView4" customModule="TjjWidgetEqualProportion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iP0-Yn-G2T"/>
+                        <viewControllerLayoutGuide type="bottom" id="zqw-uW-Um5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ca8-aX-y5o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="我的" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyo-Gm-cjj">
+                                <rect key="frame" x="80" y="214" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.050980392159999999" green="0.18823529410000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" image="tabbar_mineoff" id="Xgt-zN-KXW"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jk4-9b-01k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.5" y="174.5"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="E4y-cZ-DKQ">
+            <objects>
+                <viewController id="kxo-Qp-F1L" customClass="TabView1" customModule="TjjWidgetEqualProportion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WQ1-UU-7QF"/>
+                        <viewControllerLayoutGuide type="bottom" id="LSs-iL-g0p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jIj-4T-mTi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" backIndicatorImage="clearbg" translatesAutoresizingMaskIntoConstraints="NO" id="fc1-PI-KKM">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="jHc-C5-6hz"/>
+                                </constraints>
+                                <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="首页" id="EaT-4n-CCU">
+                                        <barButtonItem key="leftBarButtonItem" image="reportnavleft" id="8Oz-t4-6v7">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" image="reportnavright" id="mHR-M9-qj3">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjH-nH-UbD" userLabel="Button1">
+                                <rect key="frame" x="35" y="95" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DjH-nH-UbD" secondAttribute="height" multiplier="1:1" id="W66-ra-oit"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="buttonOne"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ead-7I-gEq" userLabel="Button2">
+                                <rect key="frame" x="210" y="95" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ead-7I-gEq" secondAttribute="height" multiplier="1:1" id="S6t-BD-yLr"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="buttonTwo"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMB-4g-3Vr" userLabel="Button4">
+                                <rect key="frame" x="210" y="270" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MMB-4g-3Vr" secondAttribute="height" multiplier="1:1" id="UoV-FF-4RD"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="buttonFour"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zrj-Dl-Dl4" userLabel="Button3">
+                                <rect key="frame" x="35" y="270" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Zrj-Dl-Dl4" secondAttribute="height" multiplier="1:1" id="XC6-i5-g3u"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="buttonThree"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.041761331260204315" green="0.18634450435638428" blue="0.28608611226081848" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MMB-4g-3Vr" firstAttribute="width" secondItem="DjH-nH-UbD" secondAttribute="width" id="2zQ-R9-Q7R"/>
+                            <constraint firstAttribute="trailing" secondItem="MMB-4g-3Vr" secondAttribute="trailing" constant="35" id="4Fq-ec-u4G"/>
+                            <constraint firstItem="fc1-PI-KKM" firstAttribute="leading" secondItem="jIj-4T-mTi" secondAttribute="leading" id="5Dj-8l-nt4"/>
+                            <constraint firstItem="DjH-nH-UbD" firstAttribute="top" secondItem="fc1-PI-KKM" secondAttribute="bottom" constant="31" id="5pX-gL-koC"/>
+                            <constraint firstAttribute="trailing" secondItem="ead-7I-gEq" secondAttribute="trailing" constant="35" id="8cw-1t-kfO"/>
+                            <constraint firstItem="Zrj-Dl-Dl4" firstAttribute="top" secondItem="DjH-nH-UbD" secondAttribute="bottom" constant="45" id="FxG-Hq-Jhe"/>
+                            <constraint firstItem="fc1-PI-KKM" firstAttribute="top" secondItem="WQ1-UU-7QF" secondAttribute="bottom" id="HVI-2Y-Ozy"/>
+                            <constraint firstAttribute="trailing" secondItem="fc1-PI-KKM" secondAttribute="trailing" id="I2h-YU-4lU"/>
+                            <constraint firstItem="MMB-4g-3Vr" firstAttribute="height" secondItem="DjH-nH-UbD" secondAttribute="height" id="Mh4-0k-qCg"/>
+                            <constraint firstItem="Zrj-Dl-Dl4" firstAttribute="width" secondItem="DjH-nH-UbD" secondAttribute="width" id="PZV-oH-0zx"/>
+                            <constraint firstItem="Zrj-Dl-Dl4" firstAttribute="leading" secondItem="jIj-4T-mTi" secondAttribute="leading" constant="35" id="W9g-Fu-r0B"/>
+                            <constraint firstItem="ead-7I-gEq" firstAttribute="top" secondItem="fc1-PI-KKM" secondAttribute="bottom" constant="31" id="YXj-gR-Eeu"/>
+                            <constraint firstItem="MMB-4g-3Vr" firstAttribute="leading" secondItem="Zrj-Dl-Dl4" secondAttribute="trailing" constant="45" id="ji1-Xw-xnn"/>
+                            <constraint firstItem="Zrj-Dl-Dl4" firstAttribute="height" secondItem="DjH-nH-UbD" secondAttribute="height" id="nMC-Pq-C7J"/>
+                            <constraint firstItem="MMB-4g-3Vr" firstAttribute="top" secondItem="ead-7I-gEq" secondAttribute="bottom" constant="45" id="puS-lI-GSC"/>
+                            <constraint firstItem="ead-7I-gEq" firstAttribute="leading" secondItem="DjH-nH-UbD" secondAttribute="trailing" constant="45" id="tFH-1r-BF5"/>
+                            <constraint firstItem="ead-7I-gEq" firstAttribute="height" secondItem="DjH-nH-UbD" secondAttribute="height" id="ts4-Yc-Xjw"/>
+                            <constraint firstItem="ead-7I-gEq" firstAttribute="width" secondItem="DjH-nH-UbD" secondAttribute="width" id="w2F-dN-GwZ"/>
+                            <constraint firstItem="DjH-nH-UbD" firstAttribute="leading" secondItem="jIj-4T-mTi" secondAttribute="leading" constant="35" id="wzs-Ad-dmS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首页" image="tabbar_homeoff" id="KKD-3E-oVT"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="navigationBar" destination="fc1-PI-KKM" id="72F-z5-MFG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qrf-IH-QVc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.5" y="-1984.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="hVN-1c-iQl">
+            <objects>
+                <tabBarController id="3Qm-Li-Lmk" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" backgroundImage="tabbarBackBg" id="a1f-bJ-odu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kxo-Qp-F1L" kind="relationship" relationship="viewControllers" id="3M5-bF-vkQ"/>
+                        <segue destination="1pq-DM-Pfj" kind="relationship" relationship="viewControllers" id="IS9-2X-Pg2"/>
+                        <segue destination="0h8-Ca-pDV" kind="relationship" relationship="viewControllers" id="xyB-5P-cFM"/>
+                        <segue destination="MdZ-vk-Mye" kind="relationship" relationship="viewControllers" id="kjs-DW-w0w"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b6u-rB-Wt8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-706" y="-468"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TjjWidgetEqualProportion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-179" y="2512"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="buttonFour" width="130" height="130"/>
+        <image name="buttonOne" width="130" height="130"/>
+        <image name="buttonThree" width="130" height="130"/>
+        <image name="buttonTwo" width="130" height="130"/>
+        <image name="clearbg" width="160" height="20"/>
+        <image name="reportnavleft" width="16" height="22"/>
+        <image name="reportnavright" width="20" height="14"/>
+        <image name="tabbarBackBg" width="375" height="49"/>
+        <image name="tabbar_deviceoff" width="20" height="20"/>
+        <image name="tabbar_homeoff" width="20" height="20"/>
+        <image name="tabbar_mineoff" width="20" height="20"/>
+        <image name="tabbar_reportoff" width="20" height="20"/>
+    </resources>
+</document>
